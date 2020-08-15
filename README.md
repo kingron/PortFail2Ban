@@ -2,9 +2,9 @@
 A simple but powerful tool to prevent brute force attach for remote desktop or ssh, etc
 Support Windows 7 / Windows Server 2003 or higher
 
-Required:
-  Windows Firewall MUST be enabled.
-  需要Windows防火墙支持
+*Required*
+-  Windows Firewall MUST be enabled.
+-  需要Windows防火墙支持
 
 # 原理
 对于远程桌面、SSH等端口，属于高敏感度、低连接密度的端口，因此不可能有大量的重复连接，而暴力破解密码的时候，一般黑客利用的是肉鸡代理，控制大量IP不断重复拆解密码，经常会出现几分钟内大量IP不断重复连接，因此我们完全可以利用该特点检测不断重连的IP然后在防火墙上封锁。
