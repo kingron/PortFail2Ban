@@ -31,7 +31,7 @@ namespace PortFail2Ban
                 ServiceBase[] ServicesToRun;
                 ServicesToRun = new ServiceBase[]
                 {
-                new svrDemo()
+                new PortFail2Ban()
                 };
                 ServiceBase.Run(ServicesToRun);
             }

@@ -39,9 +39,10 @@
             // 
             // Installer
             // 
-            this.Installer.Description = "Serivce Installer";
-            this.Installer.DisplayName = "Service and desktop demo";
-            this.Installer.ServiceName = "Service and desktop demo";
+            this.Installer.Description = "Prevent brute attack for remote desktop, ssh etc by connection counter, Windows f" +
+    "irewall required.";
+            this.Installer.DisplayName = "PortFail2Ban";
+            this.Installer.ServiceName = "PortFail2Ban";
             this.Installer.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
             // 
             // ProjectInstaller

@@ -10,10 +10,10 @@ using System.Threading.Tasks;
 
 namespace PortFail2Ban
 {
-    public partial class svrDemo : ServiceBase
+    public partial class PortFail2Ban : ServiceBase
     {
         CoreModule core = new CoreModule();
-        public svrDemo()
+        public PortFail2Ban()
         {
             InitializeComponent();
         }

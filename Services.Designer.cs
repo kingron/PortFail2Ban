@@ -1,6 +1,6 @@
 ﻿namespace PortFail2Ban
 {
-    partial class svrDemo
+    partial class PortFail2Ban
     {
         /// <summary> 
         /// 必需的设计器变量。
@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             // 
-            // svrDemo
+            // PortFail2Ban
             // 
             this.CanShutdown = true;
-            this.ServiceName = "Service and desktop demo";
+            this.ServiceName = "PortFail2Ban";
 
         }
 
