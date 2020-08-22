@@ -6,6 +6,8 @@ Support Windows 7 / Windows Server 2003 or higher
 -  Windows Firewall MUST be enabled.
 -  需要Windows防火墙支持
 
+[点击下载](https://github.com/kingron/PortFail2Ban/raw/master/bin/Release/PortFail2Ban.exe)
+
 ![image](https://github.com/kingron/PortFail2Ban/raw/master/images/screenshot.png)
 
 # 原理
