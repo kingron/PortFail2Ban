@@ -1,21 +1,22 @@
 # PortFail2Ban
 A simple but powerful tool to prevent brute force attach for remote desktop or ssh, etc
 Support Windows 7 / Windows Server 2003 or higher
-Required:
-  Windows Firewall MUST be enabled.
-  ÐèÒªWindows·À»ðÇ½Ö§³Ö
 
-# Ô­Àí
-¶ÔÓÚÔ¶³Ì×ÀÃæ¡¢SSHµÈ¶Ë¿Ú£¬ÊôÓÚ¸ßÃô¸Ð¶È¡¢µÍÁ¬½ÓÃÜ¶ÈµÄ¶Ë¿Ú£¬Òò´Ë²»¿ÉÄÜÓÐ´óÁ¿µÄÖØ¸´Á¬½Ó£¬¶ø±©Á¦ÆÆ½âÃÜÂëµÄÊ±ºò£¬Ò»°ãºÚ¿ÍÀûÓÃµÄÊÇÈâ¼¦´úÀí£¬¿ØÖÆ´óÁ¿IP²»¶ÏÖØ¸´²ð½âÃÜÂë£¬¾­³£»á³öÏÖ¼¸·ÖÖÓÄÚ´óÁ¿IP²»¶ÏÖØ¸´Á¬½Ó£¬Òò´ËÎÒÃÇÍêÈ«¿ÉÒÔÀûÓÃ¸ÃÌØµã¼ì²â²»¶ÏÖØÁ¬µÄIPÈ»ºóÔÚ·À»ðÇ½ÉÏ·âËø¡£
+*Required*
+-  Windows Firewall MUST be enabled.
+-  éœ€è¦Windowsé˜²ç«å¢™æ”¯æŒ
 
-# ±£»¤¶Ë¿Ú
-ÐèÒª±£»¤µÄÄ¿±ê¶Ë¿Ú£¬Ô¶³Ì×ÀÃæÄ¬ÈÏÊÇ 3389 ¡£Èç¹ûÊÇSSH£¬Ä¬ÈÏÊÇ 22¡£
+# åŽŸç†
+å¯¹äºŽè¿œç¨‹æ¡Œé¢ã€SSHç­‰ç«¯å£ï¼Œå±žäºŽé«˜æ•æ„Ÿåº¦ã€ä½Žè¿žæŽ¥å¯†åº¦çš„ç«¯å£ï¼Œå› æ­¤ä¸å¯èƒ½æœ‰å¤§é‡çš„é‡å¤è¿žæŽ¥ï¼Œè€Œæš´åŠ›ç ´è§£å¯†ç çš„æ—¶å€™ï¼Œä¸€èˆ¬é»‘å®¢åˆ©ç”¨çš„æ˜¯è‚‰é¸¡ä»£ç†ï¼ŒæŽ§åˆ¶å¤§é‡IPä¸æ–­é‡å¤æ‹†è§£å¯†ç ï¼Œç»å¸¸ä¼šå‡ºçŽ°å‡ åˆ†é’Ÿå†…å¤§é‡IPä¸æ–­é‡å¤è¿žæŽ¥ï¼Œå› æ­¤æˆ‘ä»¬å®Œå…¨å¯ä»¥åˆ©ç”¨è¯¥ç‰¹ç‚¹æ£€æµ‹ä¸æ–­é‡è¿žçš„IPç„¶åŽåœ¨é˜²ç«å¢™ä¸Šå°é”ã€‚
 
-# ´¥·¢´ÎÊý
-µ±ºÚ¿ÍÍ¨¹ýÍ¬Ò»¸öIPÁ¬ÐøÁ¬½Ó¶àÉÙ´Î£¬¾ÍÖ±½Ó·âËø¶ÔÓ¦IP¡£
+# ä¿æŠ¤ç«¯å£
+éœ€è¦ä¿æŠ¤çš„ç›®æ ‡ç«¯å£ï¼Œè¿œç¨‹æ¡Œé¢é»˜è®¤æ˜¯ 3389 ã€‚å¦‚æžœæ˜¯SSHï¼Œé»˜è®¤æ˜¯ 22ã€‚
 
-# ·âËøÊ±³¤
-µ±·âËøÄ³¸öIPºó£¬¶à¾ÃÊ±¼ä½âËø¸ÃIP¡£
+# è§¦å‘æ¬¡æ•°
+å½“é»‘å®¢é€šè¿‡åŒä¸€ä¸ªIPè¿žç»­è¿žæŽ¥å¤šå°‘æ¬¡ï¼Œå°±ç›´æŽ¥å°é”å¯¹åº”IPã€‚
 
-# ÇåÀí¼ä¸ô
-µ±Õý³£µÄIPµÄÁ¬½Ó±»¼ì²âµ½Ö®ºó£¬¶à¾ÃÊ±¼äÖØÖÃ¸ÃIPÁ¬½ÓÐÅÏ¢¡£
+# å°é”æ—¶é•¿
+å½“å°é”æŸä¸ªIPåŽï¼Œå¤šä¹…æ—¶é—´è§£é”è¯¥IPã€‚
+
+# æ¸…ç†é—´éš”
+å½“æ­£å¸¸çš„IPçš„è¿žæŽ¥è¢«æ£€æµ‹åˆ°ä¹‹åŽï¼Œå¤šä¹…æ—¶é—´é‡ç½®è¯¥IPè¿žæŽ¥ä¿¡æ¯ã€‚
